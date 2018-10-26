@@ -890,6 +890,9 @@
 		38B9E55EC2F643C5963D0B2D /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../test/glfwMac/tests/CMakeFiles/threads.dir/Info.plist; sourceTree = SOURCE_ROOT; };
 		38DCC795B2A24206ADFDBB60 /* clipboard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = clipboard; sourceTree = BUILT_PRODUCTS_DIR; };
 		39AD75CAB2B74790A826AFAB /* window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		3B7B9BAA2183158A0002C803 /* Shader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
+		3B7B9BAC218318EB0002C803 /* shader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.vs; sourceTree = "<group>"; };
+		3B7B9BAD218318F90002C803 /* shader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.fs; sourceTree = "<group>"; };
 		3BF7CA9321788FC400EA3EC8 /* pbbTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pbbTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF7CA9521788FC400EA3EC8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3BF7CAAE217978F000EA3EC8 /* clipboard copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "clipboard copy"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1331,6 +1334,9 @@
 			isa = PBXGroup;
 			children = (
 				3BF7CA9521788FC400EA3EC8 /* main.cpp */,
+				3B7B9BAA2183158A0002C803 /* Shader.hpp */,
+				3B7B9BAC218318EB0002C803 /* shader.vs */,
+				3B7B9BAD218318F90002C803 /* shader.fs */,
 			);
 			name = pbbTest;
 			path = ../test/glfwMac/pbbTest;
