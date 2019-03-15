@@ -9,17 +9,37 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ALL_BUILD.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
 		<key>ZERO_CHECK.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>ZERO_CHECK.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>boing.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>boing.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>clipboard copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>34</integer>
+		</dict>
+		<key>clipboard copy.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>34</integer>
@@ -29,7 +49,17 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>clipboard.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>cursor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>cursor.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
@@ -39,7 +69,17 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>empty.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>events.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>events.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
@@ -49,7 +89,17 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>gamma.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>gears.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>gears.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>9</integer>
@@ -59,7 +109,17 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>glfw.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>glfwinfo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>glfwinfo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>11</integer>
@@ -69,7 +129,17 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>heightmap.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>icon.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>icon.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>13</integer>
@@ -79,7 +149,17 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>iconify.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>inputlag.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>inputlag.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>15</integer>
@@ -89,7 +169,17 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>install.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>joysticks.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>joysticks.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>17</integer>
@@ -99,7 +189,17 @@
 			<key>orderHint</key>
 			<integer>18</integer>
 		</dict>
+		<key>monitors.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>msaa.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>msaa.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>19</integer>
@@ -109,7 +209,17 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>offscreen.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>opacity.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>opacity.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>21</integer>
@@ -119,7 +229,17 @@
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
+		<key>particles.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
 		<key>pbbTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>33</integer>
+		</dict>
+		<key>pbbTest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>33</integer>
@@ -129,12 +249,27 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>reopen.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 		<key>sharing.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
+		<key>sharing.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>simple.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
+		<key>simple.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>24</integer>
@@ -144,7 +279,17 @@
 			<key>orderHint</key>
 			<integer>25</integer>
 		</dict>
+		<key>splitview.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
 		<key>tearing.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
+		<key>tearing.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>26</integer>
@@ -154,7 +299,17 @@
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
+		<key>threads.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
 		<key>timeout.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
+		<key>timeout.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>28</integer>
@@ -164,7 +319,17 @@
 			<key>orderHint</key>
 			<integer>29</integer>
 		</dict>
+		<key>title.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
 		<key>uninstall.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
+		<key>uninstall.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>30</integer>
@@ -174,7 +339,17 @@
 			<key>orderHint</key>
 			<integer>31</integer>
 		</dict>
+		<key>wave.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
 		<key>windows.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>32</integer>
+		</dict>
+		<key>windows.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>32</integer>

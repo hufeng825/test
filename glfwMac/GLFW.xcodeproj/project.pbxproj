@@ -105,6 +105,11 @@
 		2DA3163DD79446FE942567FF /* opacity.c in Sources */ = {isa = PBXBuildFile; fileRef = CD87B8550C3C4C43B7D0929B /* opacity.c */; };
 		2F4DCDD3A9774C97B26D212F /* cocoa_joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C3B58D93CD41849AA8B652 /* cocoa_joystick.m */; };
 		389E6697B40B4AC1B12FB2C3 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = F888DD2701DD4ADEB79AEBAA /* glad.c */; };
+		3BCEB733223B9EC7005741C3 /* std_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCEB732223B9EC7005741C3 /* std_image.cpp */; };
+		3BCEB735223B9F08005741C3 /* container.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB734223B9F08005741C3 /* container.jpg */; };
+		3BCEB736223BB27A005741C3 /* stb_image.h in Sources */ = {isa = PBXBuildFile; fileRef = 3BCEB731223B9E77005741C3 /* stb_image.h */; };
+		3BCEB737223BB27A005741C3 /* std_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BCEB732223B9EC7005741C3 /* std_image.cpp */; };
+		3BCEB738223BB32B005741C3 /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BCEB72F223B9C57005741C3 /* wall.jpg */; };
 		3BF7CA9621788FC400EA3EC8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BF7CA9521788FC400EA3EC8 /* main.cpp */; };
 		3BF7CAA6217978F000EA3EC8 /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = C5D023BD3E46415693FC7125 /* getopt.c */; };
 		3BF7CAA7217978F000EA3EC8 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = BC73E77F0EA84DB1ABD75A05 /* glad.c */; };
@@ -893,6 +898,10 @@
 		3B7B9BAA2183158A0002C803 /* Shader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
 		3B7B9BAC218318EB0002C803 /* shader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.vs; sourceTree = "<group>"; };
 		3B7B9BAD218318F90002C803 /* shader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.fs; sourceTree = "<group>"; };
+		3BCEB72F223B9C57005741C3 /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
+		3BCEB731223B9E77005741C3 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		3BCEB732223B9EC7005741C3 /* std_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = std_image.cpp; sourceTree = "<group>"; };
+		3BCEB734223B9F08005741C3 /* container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = container.jpg; sourceTree = "<group>"; };
 		3BF7CA9321788FC400EA3EC8 /* pbbTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pbbTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF7CA9521788FC400EA3EC8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3BF7CAAE217978F000EA3EC8 /* clipboard copy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "clipboard copy"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1333,6 +1342,10 @@
 		3BF7CA9421788FC400EA3EC8 /* pbbTest */ = {
 			isa = PBXGroup;
 			children = (
+				3BCEB734223B9F08005741C3 /* container.jpg */,
+				3BCEB731223B9E77005741C3 /* stb_image.h */,
+				3BCEB732223B9EC7005741C3 /* std_image.cpp */,
+				3BCEB72F223B9C57005741C3 /* wall.jpg */,
 				3BF7CA9521788FC400EA3EC8 /* main.cpp */,
 				3B7B9BAA2183158A0002C803 /* Shader.hpp */,
 				3B7B9BAC218318EB0002C803 /* shader.vs */,
@@ -2897,7 +2910,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCEB738223BB32B005741C3 /* wall.jpg in Resources */,
 				ECD9E0A3AFAE46F2A44ADFEF /* glfw.icns in Resources */,
+				3BCEB735223B9F08005741C3 /* container.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3046,6 +3061,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCEB736223BB27A005741C3 /* stb_image.h in Sources */,
+				3BCEB737223BB27A005741C3 /* std_image.cpp in Sources */,
 				3BF7CAAF217DBC3800EA3EC8 /* glad.c in Sources */,
 				3BF7CA9621788FC400EA3EC8 /* main.cpp in Sources */,
 			);
@@ -3145,6 +3162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCEB733223B9EC7005741C3 /* std_image.cpp in Sources */,
 				FA6C013A3CC24487B999061D /* glad.c in Sources */,
 				8E726442985F460F9EEA07D0 /* boing.c in Sources */,
 			);
